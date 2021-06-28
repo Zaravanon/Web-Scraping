@@ -17,6 +17,6 @@ for i in data_rows:
         player_names.append(x.get("title"))
 print(player_names)
 dataframe=pd.DataFrame()
-dataframe['player_names']= Players
+dataframe['Players']= player_names 
 #dataframe.head()
 dataframe.to_csv("Cricket_players.csv")
